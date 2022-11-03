@@ -77,8 +77,6 @@ export const App: React.FC = () => {
       return selectedCategories.includes(categoryId);
     });
 
-  console.log(selectedCategories);
-
   return (
     <div className="section">
       <div className="container">
